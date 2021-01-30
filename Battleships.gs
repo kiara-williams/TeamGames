@@ -14,6 +14,7 @@ function main() {
 
   if (masterInput == "x"){
     mainInput.setBackground("green");
+    masterSS.getRange(input).setBackground("green");
     resultBox.setValue("HIT!");
   }
   else {
